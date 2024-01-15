@@ -6,11 +6,11 @@ class Test_tools(unittest.TestCase):
         """
         Test initials
         """
-        my_model = BaseModel()
-
-        self.assertIsNotNone(my_model.id)
-        self.assertIsNotNone(my_model.created_at)
-        self.assertIsNotNone(my_model.updated_at)
+        models = BaseModel()
+                    
+        self.assertIsNotNone(models.id)
+        self.assertIsNotNone(models.created_at)
+        self.assertIsNotNone(models.updated_at)
 
     def tes_sav(self):
         """
